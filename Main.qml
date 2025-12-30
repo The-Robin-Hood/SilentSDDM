@@ -9,7 +9,6 @@ Item {
     id: root
     state: Config.lockScreenDisplay ? "lockState" : "loginState"
 
-    // TODO: Add own translations: https://github.com/sddm/sddm/wiki/Localization
     TextConstants {
         id: textConstants
     }
